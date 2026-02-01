@@ -14,7 +14,6 @@
       <Folder Include="Controllers\" />
       <Folder Include="Factories\" />
       <Folder Include="Inventory\" />
-      <Folder Include="Models\Vehicles\" />
       <Folder Include="Repository\" />
       <Folder Include="Services\" />
       <Folder Include="Utils\" />
