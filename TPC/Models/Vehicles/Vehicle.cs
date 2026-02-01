@@ -2,6 +2,9 @@ namespace TPC.Models.Vehicles;
 using System.Text.Json;
 
 
+/// <summary>
+/// Escolhi Class abstrat porque depois é mais fácil trabalhar com Polimorfismo
+/// </summary>
 public abstract class Vehicle
 {
     public int Id { get; init; }
@@ -12,7 +15,13 @@ public abstract class Vehicle
     
     public abstract string Type { get; set; }
 //-------------------------------------------------------
-    
+
+    protected Vehicle(int id, string manufacturer, string model, int year)
+    {
+        Id = id;
+        Manufacturer = manufacturer;
+    }
+
 
     
      
